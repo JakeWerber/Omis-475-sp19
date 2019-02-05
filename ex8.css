@@ -1,0 +1,14 @@
+body     
+{ background-color: black; 
+color:  White;
+font-family: Arial, Verdana, sans-serif; }
+a		
+{ background-color: #CCCCCC;}
+
+h1		
+{ color: #CCCCCC;
+font-family: "Times New Roman" }
+
+.new	
+{ color: red;
+font-style: italic; }
