@@ -1,0 +1,36 @@
+Select Location_Name, Make, Model
+From  Location Join Vehicle
+	On Location.LocationID = Vehicle.LocationID
+Where Location_Name = 'New York City'
+
+Select  FirstName, LastName, Email, Phone#, State
+From Customer 
+Where  State = 'Florida'
+
+Select  FirstName, LastName, Department, Salary, Location_Name 
+From  Employee Join Location
+	On Employee.LocationID = Location.LocationID
+Where  Department = 'Sales'
+
+Select  SalesPrice, VechileID, FinancePlan
+From OrderTbl Join Finance
+	On OrderTbl.OrderID = Finance.OrderID
+Where  SalesPrice > '$25,000'
+
+Select  Make, Model, NewOrUsed, Price
+From Vehicle
+Where  Price > '$30,000' 
+
+Select FinanceID, FinancePlan, CustomerID
+From  Finance Join OrderTbl
+	On Finance.OrderID = OrderTbl.OrderID
+Where FinancePlan = 6
+
+Select FirstName, LastName, Location, HireDate, Salary 
+From  Employee
+Where Salary > '$50,000'
+
+Select  SalesPrice, VechileID, EmployeeID, FirstName, LastName, Email, State, City, Zip, Address
+From  OrderTBL Join Customer
+	On  OrderTbl.CustomerID = Customer.CustomerID
+Where  SalesPrice > '$20,000'
