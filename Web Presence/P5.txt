@@ -1,0 +1,557 @@
+/*	INSERT data for CUSTOMER  */
+
+SET IDENTITY_INSERT dbo.CUSTOMER ON
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values(
+	100, 'Clovis', 'Franciskiewicz', 'Texas', 'Corpus Christi', '78410', '1 Talmadge Plaza', 'cfranciskiewicz3@livejournal.com', '361-788-1112');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	101, 'Pepita', 'Turville', 'Florida', 'Miami Beach', '33141', '301 Westport Court', 'pturville4@prnewswire.com', '305-504-2513');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	102, 'Lani', 'Palle', 'Pennsylvania', 'Philadelphia', '19178', '09754 Sullivan Street', 'lpalle5@cam.ac.uk', '215-421-9340');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	103, 'Frederica', 'Skatcher', 'Ohio', 'Cincinnati', '45228', '30021 Lyons Street', 'fskatcher6@theatlantic.com', '513-372-6731');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values(
+	104, 'Estevan', 'Kordas', 'New York', 'Rochester', '14609', '30641 Village Alley', 'ekordas7@comcast.net', '585-502-1972');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	105, 'Ali', 'Fishley', 'Georgia', 'Savannah', '31422', '78020 Northport Lane', 'afishley8@dagondesign.com', '912-204-3248');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	106, 'Juditha', 'Simionato', 'Florida', 'Tallahassee', '32314', '8 High Crossing Circle', 'jsimionato9@twitter.com', '850-713-5937');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	107,'Teddi', 'Jedrzejkiewicz', 'Connecticut', 'Hartford', '06120', '73 Maple Wood Trail', 'tjedrzejkiewicza@parallels.com', '860-980-1638');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	108, 'Brett', 'Harburtson', 'Idaho', 'Boise', '83711', '5 Messerschmidt Crossing', 'bharburtsonb@bloglovin.com', '208-132-1010');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	109, 'Madella', 'Tugwell', 'California', 'Sacramento', '94286', '21 Paget Alley', 'mtugwell2@huffingtonpost.com', '916-126-8219');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	110, 'Rickie', 'Collumbine', 'Pennsylvania', 'Pittsburgh', '15274', '8 Lakewood Gardens Lane', 'rcollumbine1@biblegateway.com', '412-263-1834');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	111, 'Leland', 'Goggey', 'Georgia', 'Atlanta', '30301', '99 Marcy Crossing', 'lgoggey0@creativecommons.org', '678-503-5879');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	112, 'Clayson', 'Baudacci', 'Minnesota', 'Duluth', '55805', '0890 Stone Corner Place', 'cbaudaccic@123-reg.co.uk', '218-826-0090');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	113, 'Garald', 'Sturton', 'Illinois', 'Chicago', '60609', '62 Kenwood Pass', 'gsturtond@hc360.com', '312-646-3867');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	114, 'Amby', 'Cuxon', 'District of Columbia', 'Washington', '20470', '0 Schiller Street', 'acuxone@nifty.com', '202-788-6939');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	115, 'Kaia', 'MacDonell', 'Florida', 'Delray Beach', '33448', '404 Shoshone Avenue', 'kmacdonellf@addtoany.com', '561-122-0947');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	116, 'Natka', 'Macvey', 'Texas', 'Dallas', '75236', '0481 Division Plaza', 'nmacveyg@geocities.jp', '972-502-6725');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	117, 'Kerrin', 'Marchenko', 'Massachusetts', 'Brockton', '02405', '360 Commercial Center', 'kmarchenkoh@over-blog.com', '508-334-0503');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	118, 'Gay', 'Barlas', 'Florida', 'Tampa', '33647', '855 Golf Course Pass', 'gbarlasi@51.la', '813-852-5207');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	119, 'Marshall', 'Reavell', 'Alabama', 'Birmingham', '35295', '630 Grasskamp Trail', 'mreavellj@sogou.com', '205-126-8486');
+
+INSERT INTO CUSTOMER
+	(CustomerID, FirstName, LastName, State, City, Zip, Address, Email, Phone#)
+	Values (
+	120, 'Olive', 'Mathy', 'Indiana', 'Evansville', '47747', '14 Canary Way', 'omathy0@e-recht24.de', '812-926-0394');
+
+SET IDENTITY_INSERT dbo.CUSTOMER OFF
+
+/* Insert Location  */
+
+SET IDENTITY_INSERT dbo.Location On
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	1, 'Elgin');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	2, 'DC');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	3, 'Indiana');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	4, 'Montgomery"');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	5, 'Tampa');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	6,'Brockton');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	7, 'Dallas');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	8,'Delray Beach');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	9, 'Chicago')
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	10, 'DeKalb');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	11, 'St. Charles');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	12, 'St. Louis');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	13, 'Atlanta');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	14, 'Scranton');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	15, 'Rochester');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	16, 'New York City');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	17,'Boise');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	18,'Duluth');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	19, 'Savannah');
+
+Insert Into Location
+	(LocationID, Location_Name)
+	Values (
+	20, 'Sacramento');
+
+SET IDENTITY_INSERT dbo.Location OFF
+
+/* Insert Vehicle  */
+
+SET IDENTITY_INSERT dbo.Vehicle On
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	500, 5, 'Mercedes-Benz', 'W168', '2005', 'Used', '$20,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	501, 5, 'Mercedes-Benz', 'w203', '2008', 'Used', '$10,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	502, 2, 'Mercedes-Benz', 'W222', '2017', 'New', '$38,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	503, 3, 'Mercedes-Benz',  'R230', '2017', 'New', '$40,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	504, 6, 'Mercedes-Benz', 'C class', '2018', 'New', '$50,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	505, 6, 'Mercedes-Benz',  'AMG', '2018', 'New', '$55,000'); 
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	506, 20, 'Mercedes-Benz', 'CLK-Class', '2005', 'Used', '$18,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	507, 20, 'Mercedes-Benz', 'CLK-Class', '2010', 'Used', '$20,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	508, 20, 'Mercedes-Benz', 'CLK-Class', '2018', 'New', '$40,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	509, 12, 'Mercedes-Benz', 'W210', '2002', 'Used', '$10,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	510, 12, 'Mercedes-Benz', 'G-Class', '2009', 'Used', '$12,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	511, 12, 'Mercedes-Benz', 'G-Class', '2018','New', '$38,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	512, 16, 'Mercedes-Benz',  'W212' , '2015', 'Used', '$20,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	513, 16, 'Mercedes-Benz',  'CLS-Class', '2018', 'New', '$40,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	514, 16, 'Mercedes-Benz', 'W212', '2016', 'used', '$22,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	515, 16, 'Mercedes-Benz',  'X164', '2018', 'New', '$40,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	516, 12, 'Mercedes-Benz',  'W212', '2016', 'Used', '$19,000');	
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	517, 18, 'Mercedes-Benz',  'W212',  '2009', 'Used', '$12,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	518, 11, 'Mercedes-Benz', 'X164', '2012', 'Used', '$17,000');
+
+Insert Into Vehicle
+	(VehicleID, LocationID, Make, Model, Year, NewOrUsed, Price)
+	Values(
+	519, 1, 'Mercedes-Benz', 'X164', '2018', 'Used', '$32,000');
+
+SET IDENTITY_INSERT dbo.Vehicle OFF
+
+/* Insert Order  */
+
+SET IDENTITY_INSERT dbo.OrderTbl On
+
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	500, 100, '$28,680', 500, 1000);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	501, 102, '$14,075', 502, 1002);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	502, 103, '$34,800', 503, 1003);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	503, 104, '$13,203', 504, 1004);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	504, 105, '$14,023', 505, 1005);
+insert into OrderTbl
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	505, 106, '$35,834', 506, 1006);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	506, 107, '$18,959', 507, 1007);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	507, 108, '$36,982', 508, 1008);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	508, 109, '$31,571', 509, 1009);
+insert into OrderTbl
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	509, 110, '$29,361', 510, 1010);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	510, 111, '$10,015', 511, 1011);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	511, 112, '$31,595', 512, 1012);
+insert into OrderTbl
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	512, 113, '$14,341', 513, 1013);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	513, 114, '$34,228', 514, 1014);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	514, 115, '$30,118', 515, 1015);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	515, 116, '$28,614', 516, 1016);
+insert into OrderTbl
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	516, 117, '$29,436', 517, 1017);
+insert into OrderTbl
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	517, 118, '$15,889', 518, 1018);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	518, 119, '$35,701', 519, 1019);
+insert into OrderTbl 
+	(OrderID, CustomerID, SalesPrice, VechileID, EmployeeID) 
+	values (
+	519, 120, '$19,371', 520, 1020);
+
+SET IDENTITY_INSERT dbo.OrderTbl OFF
+
+
+/* Insert Finance  */
+
+SET IDENTITY_INSERT dbo.Finance On
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (100, 500, 3);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (101, 502, 3);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (102, 501, 8);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (103, 503, 4);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (104, 504, 8);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (105,505, 2);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (106, 506, 6);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (107, 507, 6);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (108, 508, 6);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (109, 509, 4);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (110, 510, 3);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (111, 511, 1);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (112, 512, 2);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (113, 513, 3);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (114, 514, 5);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (115, 515, 9);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (116, 516, 3);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (117, 517, 7);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (118, 518, 3);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (119, 519, 2);
+
+Insert INTO Finance
+	(FinanceID, OrderID, FinancePlan)
+	Values (120, 520, 2);
+
+SET IDENTITY_INSERT dbo.Finance Off
+
+/* Insert Employee  */
+
+SET IDENTITY_INSERT dbo.Employee On
+
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1001, 1, 'Nanice', 'Raubenheimer', '$19.69', 'Marketing', 1, '$60,000', '3/27/2018');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1002, 2, 'Milissent', 'Teague', '$33.28', 'Training', 2, '$65,000',  '8/9/2011');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1003, 3, 'Ashla', 'Mathon', '$40.85', 'Accounting', 3, '$49,000', '3/26/2011');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1004, 4, 'Oren', 'Probart', '$25.47', 'Business Development', 4, '$30,000', '1/22/2017');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1005, 5, 'Vassily', 'Blaxill', '$19.69', 'Services', 5, '$20,000', '12/16/2016');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1006, 6, 'Nananne', 'Narrie', '$20.20', 'Training', 6, '$90,000', '12/4/2013');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1007, 7, 'Jerome', 'Allderidge', '$46.41', 'Marketing', 7, '$40,000', '11/5/2017');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1008, 8, 'Gabriele', 'Molan', '$38.26', 'Legal', 8, '$60,000', '2/21/2017');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1009, 9, 'Falkner', 'O''Crevy', '$23.23', 'Accounting', 9, '$75,000', '11/30/2015');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1010, 10, 'Elna', 'Wolstencroft', '$34.69', 'Business Development', 10, '$89,000', '2/16/2013');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1011, 11, 'Ilise', 'Soutter', '$21.98', 'Sales', 11, '$100,000', '10/10/2016');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1012, 12, 'Linnet', 'Bulmer', '$24.77', 'Sales', 12, '$40,000', '8/30/2013');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1013, 13, 'Claudia', 'Dormon', '$36.21', 'Training', 13, '$70,000', '11/12/2011');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1014, 14, 'Fabio', 'Van Cassel', '$31.93', 'Marketing', 14, '$20,000', '4/14/2011');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1015, 15, 'Charlotta', 'Gehrtz', '$12.06', 'Sales', 15, '$55,000', '3/21/2017');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1016, 16, 'Fleurette', 'Fearnill', '$27.26', 'Sales', 16, '$70,000', '1/13/2016');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1017, 17, 'Remy', 'Shakespear', '$18.84', 'Human Resources', 17, '$80,000', '9/19/2010');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1018, 18, 'Jard', 'Pearman', '$48.33', 'Legal', 18, '$65,000', '3/19/2018');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1019, 19, 'Nelly', 'Beaves', '$47.11', 'Research and Development', 19, '$40,000', '7/19/2015');
+insert into Employee (EmployeeID, LocationID, FirstName, LastName, SaleAmount, Department, Location, Salary, HireDate) values (1020, 20, 'Devin', 'Andrez', '$43.64', 'Research and Development', 20, '$68,000', '1/12/2012');
+
+SET IDENTITY_INSERT dbo.Employee Off
+
+/*  Insert Employee_Customer_Int  */
+
+Insert INTO Employee_Customer_Int Values (1001, 101);
+Insert INTO Employee_Customer_Int Values (1002, 102);
+Insert INTO Employee_Customer_Int Values (1003, 103);
+Insert INTO Employee_Customer_Int Values (1004, 104);
+Insert INTO Employee_Customer_Int Values (1005, 105);
+Insert INTO Employee_Customer_Int Values (1006, 106);
+Insert INTO Employee_Customer_Int Values (1007, 107);
+Insert INTO Employee_Customer_Int Values (1008, 108);
+Insert INTO Employee_Customer_Int Values (1009, 109);
+Insert INTO Employee_Customer_Int Values (1010, 110);
+Insert INTO Employee_Customer_Int Values (1011, 111);
+Insert INTO Employee_Customer_Int Values (1012, 112);
+Insert INTO Employee_Customer_Int Values (1013, 113);
+Insert INTO Employee_Customer_Int Values (1014, 114);
+Insert INTO Employee_Customer_Int Values (1015, 115);
+Insert INTO Employee_Customer_Int Values (1016, 116);
+Insert INTO Employee_Customer_Int Values (1017, 117);
+Insert INTO Employee_Customer_Int Values (1018, 118);
+Insert INTO Employee_Customer_Int Values (1019, 119);
+Insert INTO Employee_Customer_Int Values (1020, 120);
+
+
+
+
+
+
+	

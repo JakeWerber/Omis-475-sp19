@@ -1,0 +1,88 @@
+Create Table Location (
+	LocationID		Int		Not Null  Identity(1,1),
+	Location_Name		Char(25)	Not Null,
+	Constraint 		LocationPK	Primary Key(LocationID)
+);
+
+Create Table Customer (
+	CustomerID		Int		Not Null Identity(100,1),
+	FirstName		Char(25)	Not Null,
+	LastName		Char(30)	Not Null,
+	State			Char(20)	Not Null,
+	City			Char(25)	Not Null,
+	Zip			Char(9)		Not Null,
+	Address			Char(50)	Not Null,
+	Email			VarChar(100)	Not Null,
+	Phone#			Char(20)	Not Null,
+	Constraint		CustomerPK	Primary Key(CustomerID)
+);
+
+Create Table Vehicle (
+	VehicleID		Int		Not Null Identity(500,1),
+	LocationID		Int		Not Null,
+	Make			Char(15)	Not Null,
+	Model			Char(15)	Not Null,
+	Year			Int		Not Null,
+	NewOrUsed		Char(4)		Not Null,
+	Price			Char(10)	Not Null,
+	Constraint		VehiclePk	Primary Key(VehicleID),
+	Constraint		VehicleFK	Foreign Key(LocationID)
+						References Location(LocationID)
+						ON UPDATE NO ACTION 
+						ON DELETE NO ACTION
+);
+
+Create Table Employee (
+	EmployeeID		Int		Not Null Identity (1000,1),
+	LocationID		Int		Not Null,
+	FirstName		Char(25)	Not Null,
+	LastName		Char(30)	Not Null,
+	SaleAmount		Char(30)	Not Null,
+	Department		Char(30)	Not Null,
+	Salary			Char(30)	Not Null,
+	Location		Char(10)	Not Null,
+	HireDate		Date		Not Null,
+	Constraint		EmployeePK	Primary Key(EmployeeID),
+	Constraint		EmployeeFK	Foreign Key(LocationID)
+						References Location(LocationID)
+						ON UPDATE NO ACTION
+						ON DELETE NO ACTION
+);
+
+Create Table Employee_Customer_Int (
+	EmployeeID		Int		Not Null,
+	CustomerID		Int		Not Null,
+	Constraint 		Employee_Customer_IntPK		Primary Key(EmployeeID, CustomerID),
+	Constraint		Employee_Customer_IntFK		Foreign Key(EmployeeID)
+									References Employee(EmployeeID)
+									ON UPDATE NO ACTION
+									ON DELETE NO ACTION,
+	Constraint		Employee_Customer_IntFK1		Foreign Key(CustomerID)
+									References Customer(CustomerID)
+									ON UPDATE NO ACTION
+									ON DELETE NO ACTION
+);
+
+Create Table OrderTbl (
+	OrderId			Int		Not Null Identity(500,1),
+	CustomerID		Int		Not Null,
+	SalesPrice		Char(10)	Not Null,
+	VechileID		Char(25)	Not Null,
+	EmployeeID		Char(25)	Not Null,
+	Constraint		OrderPK		Primary Key(OrderID),
+	Constraint 		OrderFK		Foreign Key(CustomerID)
+						References Customer(CustomerID)
+						ON UPDATE NO ACTION 
+						ON DELETE NO ACTION
+);	
+
+Create Table Finance (
+	FinanceID 		Int		Not Null Identity(100,1),
+	OrderID			Int		Not Null,
+	FinancePlan		Char(25)	Not Null,
+	Constraint 		FinancePK	Primary Key(FinanceID),
+	Constraint		FinanceFK	Foreign Key(OrderID)
+						References OrderTbl(OrderID)
+						ON UPDATE NO ACTION
+						ON DELETE NO ACTION
+);
