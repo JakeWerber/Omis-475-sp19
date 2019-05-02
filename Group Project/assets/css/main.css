@@ -4230,13 +4230,13 @@
 table {
 			font-family: arial, sans-serif;
 			border-collapse: collapse;
-			width: 900;
+			width: 900px;
 		  }
 		  
 		  td, th {
 			border: 1px solid #dddddd;
 			text-align: left;
-			padding: 8;
+			padding: 8px;
 		  }
 		  
 		  tr:nth-child(even) {
